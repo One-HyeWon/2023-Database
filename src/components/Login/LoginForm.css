@@ -1,0 +1,41 @@
+/* LoginForm.css */
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* This ensures the form is centered vertically */
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 8px;
+  margin-bottom: 15px;
+  width: 200px;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  background-color: #ccc;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  /* Hover effect */
+  &:hover {
+    background-color: #2196f3;
+  }
+
+  /* Active (clicked) effect */
+  &:active {
+    background-color: #1565c0;
+  }
+}

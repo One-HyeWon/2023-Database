@@ -1,0 +1,26 @@
+/* Profile.css */
+.profile {
+  width: 30%;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  height: auto; /* Remove fixed height */
+  margin-left: 20px; /* Adjust margin for better spacing */
+}
+
+.profile h2 {
+  margin-bottom: 10px; /* Increase margin for better spacing */
+}
+
+.profile p {
+  margin: 5px 0; /* Add margin for better spacing */
+}
+
+.profile ul {
+  list-style: none;
+  padding: 0;
+}
+
+.profile ul li {
+  margin-bottom: 5px; /* Adjust margin for better spacing between followers/followings */
+}

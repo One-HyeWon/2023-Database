@@ -1,0 +1,7 @@
+.app {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-right: 10px; /* 여백 추가 */
+}
