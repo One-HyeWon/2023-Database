@@ -8,6 +8,7 @@ import LoginForm from "./components/Login/LoginForm";
 function ProfileAndFeed() {
   const [loggedInUser, setLoggedInUser] = useState(null);
 
+  // 로그인 성공 시 호출되는 함수
   const handleLogin = (userData) => {
     setLoggedInUser(userData);
   };
@@ -18,8 +19,8 @@ function ProfileAndFeed() {
         <LoginForm onLogin={handleLogin} />
       ) : (
         <>
-          <Profile userProfile={loggedInUser.userData} />
-          <Feed userPosts={loggedInUser.userData} />
+          <Profile userProfile={loggedInUser.user_data} />
+          <Feed loggedInUser={loggedInUser} />
         </>
       )}
     </div>
